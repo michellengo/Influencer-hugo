@@ -371,9 +371,8 @@
           <i class="{{ .icon }}"></i>
           <p class="mb-0">{{ .title | markdownify }}</p>
           {{ range .list }}
-          <h5>{{ .listItem }}</h5>
           <a href="{{ .link | safeURL }}" class="hover-item">
-            <i class="ti-link"></i>
+            <h5>{{ .listItem }}</h5>
           </a>
           {{ end }}
         </div>
