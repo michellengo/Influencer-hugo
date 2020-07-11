@@ -48,12 +48,12 @@ service:
       content : "By getting to know each child, I develop and execute an individualized plan to remove barriers from every child’s path towards success."
 
     # service item loop
-    - title : "Virtual learning guidance"
+    - title : "Virtual Learning Guidance"
       icon : "ti-desktop" # themify icon pack : https://themify.me/themify-icons
       content : "For homeschool families or families experiencing virtual learning, I provide in person direct instruction aligned to the appropriate curriculum."
 
     # service item loop
-    - title : "In-class intervention"
+    - title : "In-Class Intervention"
       icon : "ti-pencil-alt2" # themify icon pack : https://themify.me/themify-icons
       content : "I work alongside classroom teachers in scaffolding material, behavioral support, and consulting for children who would benefit from 1-on-1 support in the classroom."
 
@@ -236,12 +236,14 @@ contact:
       icon : "ti-mobile" # themify icon pack : https://themify.me/themify-icons
       list:
         - listItem : "914-406-5752"
+          link : "tel:914-406-5752"
 
     # contact Item loop
     - title : "Email"
       icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
       list:
         - listItem : "beckysgoodman@gmail.com"
+          link : "mailto: beckysgoodman@gmail.com"
 
     # contact Item loop
     - title : "Location"
