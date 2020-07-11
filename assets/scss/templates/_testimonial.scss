@@ -3,6 +3,7 @@ SECTION TESTIMONIAL
 -------------------------------------*/
 .testimonial{
     position: relative;
+    padding-top: 8.125rem;
 
     &:before{
         position: absolute;
@@ -59,7 +60,7 @@ SECTION TESTIMONIAL
         }
       }
     }
-  
+
     &.four {
       li {
         &:not(:last-child) {
@@ -69,19 +70,19 @@ SECTION TESTIMONIAL
         }
       }
     }
-  
+
     &.three {
       li {
         i {
           color: $primary-color;
         }
-  
+
         &:last-child {
           i {
             color: $black-lighter;
           }
         }
-  
+
         &:nth-child(4) {
           i {
             color: $black-lighter;
@@ -89,7 +90,7 @@ SECTION TESTIMONIAL
         }
       }
     }
-  
+
     &.two {
       li {
         &:first-child {
@@ -97,7 +98,7 @@ SECTION TESTIMONIAL
             color: $primary-color;
           }
         }
-  
+
         &:nth-child(2) {
           i {
             color: $primary-color;
@@ -105,7 +106,7 @@ SECTION TESTIMONIAL
         }
       }
     }
-  
+
     &.one {
       li {
         &:first-child {
@@ -116,5 +117,5 @@ SECTION TESTIMONIAL
       }
     }
   }
-  
+
   /* /rating */
