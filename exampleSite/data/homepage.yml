@@ -61,8 +61,8 @@ service:
 ######################### Quote #############################
 quote:
   enable : true
-  quote: "It's simply the best guide to making money online ever released which only a fool would ignore."
-  quoteBy: "John Smith"
+  quote: "The goal of early childhood education should be to activate the child's own natural desire to learn."
+  quoteBy: "Maria Montessori"
 
 
 ######################### Chapters ##########################
