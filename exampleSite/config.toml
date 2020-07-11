@@ -3,7 +3,7 @@ languageCode = "en-us"
 paginate = 6
 summaryLength = "10"
 theme = "influencer-hugo"
-title = "Influencer"
+title = "Beck Goodman"
 [[menu.main]]
 URL = "contact"
 name = "Contact"
@@ -18,13 +18,13 @@ name = "About"
 weight = 1
 [params]
 author = "Themefisher"
-copyright = "Copyright &copy; 2019 [GetHugoThemes](https://gethugothemes.com) All Rights Reserved"
+copyright = ""
 description = "This is meta description"
 googleAnalitycsID = ""
 home = "Home"
 logo = ""
 [params.footer]
-content = "Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 [params.navButton]
 enable = true
 [[params.plugins.css]]
