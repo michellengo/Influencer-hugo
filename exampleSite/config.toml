@@ -1,4 +1,4 @@
-baseURL = "https://beckgoodman.netlify.app/"
+baseURL = "https://beckgoodman.com/"
 languageCode = "en-us"
 paginate = 6
 summaryLength = "10"
