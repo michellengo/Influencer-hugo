@@ -4,7 +4,7 @@ banner:
   #writter : ""
   title : "Meet Beck."
   image : "images/about/meet-beck.jpg"
-  content : "At Little Learners NYC, we deeply believe that through strong adult-child relationships, a lot of fun and an individualized approach to learning, every child will reach their social, emotional and academic goals. We meet with students 1-on-1 to identify barriers to a child's success and use proven methods that build the child's self confidence, problem solving and critical thinking skills. Our staff are certified teachers with classroom experience and a love of working with children. Each consultant uses the child's natural curiosity to guide each session and teach the strategies needed for children to take ownership of their learning."
+  content : "I work with children to support their social-emotional, pre-academic and academic development. I use a play-based approach to identify skill gaps that may impede a child’s success in formal classroom settings, developing independence and having meaningful relationships with peers. By building trust, playing games and sharing jokes, I develop a strong relationship with each child. I am a firm believer that any child can reach their goals and have fun while doing it!"
   price : ""
 
 ######################## Book Preview ##########################
@@ -53,9 +53,9 @@ service:
       content : "For homeschool families or families experiencing virtual learning, I provide in person direct instruction aligned to the appropriate curriculum."
 
     # service item loop
-    - title : "In-classroom intervention"
+    - title : "In-class intervention"
       icon : "ti-pencil-alt2" # themify icon pack : https://themify.me/themify-icons
-      content : "I work alongside classroom teachers in scaffolding material, behavioral support, executive functioning support and consulting for children who would benefit from 1-on-1 support in the classroom."
+      content : "I work alongside classroom teachers in scaffolding material, behavioral support, and consulting for children who would benefit from 1-on-1 support in the classroom."
 
 
 ######################### Quote #############################
