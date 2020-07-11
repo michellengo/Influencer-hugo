@@ -5,7 +5,7 @@ banner:
   title : "Meet Beck."
   image : "images/about/book.png"
   content : "At Little Learners NYC, we deeply believe that through strong adult-child relationships, a lot of fun and an individualized approach to learning, every child will reach their social, emotional and academic goals. We meet with students 1-on-1 to identify barriers to a child's success and use proven methods that build the child's self confidence, problem solving and critical thinking skills. Our staff are certified teachers with classroom experience and a love of working with children. Each consultant uses the child's natural curiosity to guide each session and teach the strategies needed for children to take ownership of their learning."
-  #price : "14.99"
+  price : ""
 
 ######################## Book Preview ##########################
 preview:
