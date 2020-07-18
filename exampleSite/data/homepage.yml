@@ -2,11 +2,10 @@
 banner:
   enable : true
   #writter : ""
-  title : "Meet Beck."
+  title : "Meet Beck Goodman, <em>M. Ed.</em>"
   image : "images/about/meet-beck.jpg"
-  content : "I work with children to support their social-emotional, pre-academic and academic development. I use a play-based approach to identify skill gaps that may impede a child’s success in formal classroom settings, developing independence and having meaningful relationships with peers. By building trust, playing games and sharing jokes, I develop a strong relationship with each child. I am a firm believer that any child can reach their goals and have fun while doing it!"
+  content : ""I'm a certified teacher with a master's degree in education and a Teach for America alumni, and I'm providing direct, in-person or virtual instruction to a small group of students that learn together on virtual school days to make sure that the learning and fun doesn't stop! To learn more about how we can work together this fall, message me on Facebook or email beckysgoodman@gmail.com.""
   link : "mailto:beckysgoodman@gmail.com"
-  price : ""
 
 ######################## Book Preview ##########################
 preview:
