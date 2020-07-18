@@ -9,7 +9,7 @@
 
 
 /*-------------------------
- HOME -2 
+ HOME -2
 -----------------------------*/
 .banner-main{
     position: relative;
@@ -20,7 +20,7 @@
     	left: 0px;
     	top:0px;
     	width: 100%;
-        background:#F4F7FC;
+        background:$primary-color;
     	height: 80%;
 
     }
@@ -30,7 +30,7 @@
 h1{
     font-size: 60px;
     line-height: 70px;
-    color: #263b5e;
+    color: $light;
     font-weight: 600;
 }
 
@@ -66,4 +66,3 @@ h1{
 //         line-height: 55px;
 //     }
 // }
-
