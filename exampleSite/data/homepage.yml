@@ -70,7 +70,7 @@ devices:
     - title : "Private Teacher (1 child)"
       icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
       content : "This is the ultimate private school experience where the child receives direct, one-on-one instruction, remediation and enrichment in all academic subject areas. Your child will remain enrolled in the school of your choosing, and learning from the school’s curriculum on virtual learning days. This service includes:
-      - Direct instruction
+      1. Direct instruction
       - Homework help
       - Test prep
       - Project planning
