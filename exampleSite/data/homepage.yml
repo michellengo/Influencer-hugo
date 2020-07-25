@@ -2,9 +2,9 @@
 banner:
   enable : true
   #writter : ""
-  title : "Meet Beck Goodman, <em>M. Ed.</em>"
+  title : "Meet Beck."
   image : "images/about/meet-beck.jpg"
-  content : "I'm a certified teacher with a master's degree in education and a Teach for America alumni, and I'm providing direct, in-person or virtual instruction to a small group of students that learn together on virtual school days to make sure that the learning and fun doesn't stop! To learn more about how we can work together this fall, message me on Facebook or email beckysgoodman@gmail.com."
+  content : "Beck is an experienced, certified classroom teacher, Teach for America alumna, and holds a Master's in Education. Dedicated to the guiding principle that education should be fun, interactive and, most of all, empowering, Beck's primary goal is to instill in each of her students self-confidence and a love of learning that will last a lifetime."
   link : "mailto:beckysgoodman@gmail.com"
   price : ""
 
@@ -101,36 +101,29 @@ chapters:
 reviews:
   enable : true
   title : "What people are saying"
-  subtitle : "Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!"
+  subtitle : ""
   review:
+
     # review item loop
-    - name : "Charlie"
-      image : "images/client/test-1.jpg" # image size 80*80 px
-      designation : "Sunrise ten"
-      rating : "five" # rating from one to five
+    - name : "David G."
+      image : "" # image size 80*80 px
+      designation : "Parent"
+      rating : "" # rating from one to five
+      content : "We hired Beck in February 2020 to work with my 5-year-old son, who was behind his peers in school with counting, letter recognition, and he occasionally didn't follow instructions or share with other children. Beck has been wonderful working with him. She doesn’t only focus on numbers and letters, but also focuses on my son as a whole person. He adores her! Beck talks about education and my son's development with more intelligence and detail than almost any teacher I have ever heard. I couldn't give Beck a higher recommendation - she is wonderful."
+
+    # review item loop
+    - name : "Nicolette S."
+      image : "" # image size 80*80 px
+      designation : "Parent"
+      rating : "" # rating from one to five
+      content : "Beck was a fantastic tutor for my 5th grade son with ADHD. She started each session with the perfect balance of structure and humor. She supported him in both executive functioning skills like focusing and time management while also helping in an array of subjects like math, writing, and Spanish. My son felt respected and understood when he was working with Beck."
+
+    # review item loop
+    - name : "Charlie G."
+      image : "" # image size 80*80 px
+      designation : "Classroom teacher"
+      rating : "" # rating from one to five
       content : "Working with Beck this school year was such a pleasure for the teachers and such a blessing for the student. Being a teacher herself, Beck knew exactly how to jump in and help fill in the gaps the child had missing. Her positive nature shined every day as she made continual progress in and out of the classroom."
-
-    # review item loop
-    - name : "Nilam Arthur"
-      image : "images/client/test-2.jpg" # image size 80*80 px
-      designation : "Sunrise ten"
-      rating : "four" # rating from one to five
-      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
-
-    # review item loop
-    - name : "Barrow Hasi"
-      image : "images/client/test-1.jpg" # image size 80*80 px
-      designation : "Sunrise ten"
-      rating : "five" # rating from one to five
-      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
-
-    # review item loop
-    - name : "Nilam Arthur"
-      image : "images/client/test-2.jpg" # image size 80*80 px
-      designation : "Sunrise ten"
-      rating : "four" # rating from one to five
-      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
-
 
 #################################### device ################################
 devices:
