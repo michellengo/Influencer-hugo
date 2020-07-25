@@ -110,7 +110,7 @@
 
 
 .header-white {
-    background: $light;
+    background: $gray;
     -webkit-transition: .0s all ease;
     -o-transition: .0s all ease;
     transition: .0s all ease;
@@ -120,7 +120,7 @@
 
 @include mobile{
     .fixed-top.site-header{
-        background: $light;
+        background: $gray;
     }
 }
 

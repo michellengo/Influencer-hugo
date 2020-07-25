@@ -44,19 +44,25 @@ service:
   enable : true
   serviceItem:
     # service item loop
-    - title : "Education Consultant"
+    - title : "Private Teacher"
       icon : "ti-book" # themify icon pack : https://themify.me/themify-icons
-      content : "By getting to know each child, I develop and execute an individualized plan to remove barriers from every child’s path towards success."
+      content : ""
 
     # service item loop
-    - title : "Virtual Learning Guidance"
+    - title : "Micro-schooling"
       icon : "ti-desktop" # themify icon pack : https://themify.me/themify-icons
-      content : "For homeschool families or families experiencing virtual learning, I provide in person direct instruction aligned to the appropriate curriculum."
+      content : ""
 
     # service item loop
-    - title : "In-Class Intervention"
+    - title : "Traditional 1-on-1 tutoring"
       icon : "ti-pencil-alt2" # themify icon pack : https://themify.me/themify-icons
-      content : "I work alongside classroom teachers in scaffolding material, behavioral support, and consulting for children who would benefit from 1-on-1 support in the classroom."
+      content : ""
+
+    # service item loop
+    - title : "At-home teaching workshops"
+      icon : "ti-pencil-alt2" # themify icon pack : https://themify.me/themify-icons
+      content : ""
+
 
 
 #################################### device ################################
