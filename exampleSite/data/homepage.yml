@@ -54,7 +54,7 @@ service:
       content : ""
 
     # service item loop
-    - title : "Traditional 1-on-1 tutoring"
+    - title : "1-on-1 tutoring"
       icon : "ti-pencil-alt2" # themify icon pack : https://themify.me/themify-icons
       content : ""
 
