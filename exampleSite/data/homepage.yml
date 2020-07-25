@@ -4,7 +4,7 @@ banner:
   #writter : ""
   title : "Meet Beck."
   image : "images/about/meet-beck.jpg"
-  content : "Beck Goodman, *M. Ed*  is an experienced, certified classroom teacher, Teach for America alumna, and holds a Master's in Education. Dedicated to the guiding principle that education should be fun, interactive and, most of all, empowering, Beck's primary goal is to instill in each of her students self-confidence and a love of learning that will last a lifetime."
+  content : "Beck Goodman, *M. Ed*   is an experienced, certified classroom teacher, *Teach for America* alumna, and holds a Master's in Education. Dedicated to the guiding principle that education should be fun, interactive and, most of all, empowering, Beck's primary goal is to instill in each of her students self-confidence and a love of learning that will last a lifetime."
   link : "mailto:beckysgoodman@gmail.com"
   price : ""
 
@@ -82,7 +82,6 @@ devices:
       * Remediation
 
       * IEP/504 compliance support"
-      
 
     # feature item loop
     - title : "Micro-schooling (multiple children)"
@@ -97,7 +96,15 @@ devices:
     # feature item loop
     - title : "At-home teaching workshops"
       icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
-      content : "In these challenging times, caregivers are tasked with both childcare and education for their little ones. Participation in this workshop will provide caregivers with the foundation they need to make virtual schooling a successful and enjoyable process. In this session we will cover:"
+      content : "In these challenging times, caregivers are tasked with both childcare and education for their little ones. Participation in this workshop will provide caregivers with the foundation they need to make virtual schooling a successful and enjoyable process. In this session we will cover:
+
+      * Interpreting standards and understanding the goal of each assignment
+
+      * Teaching basics (scaffolding, revision, how to assess understanding, etc.)
+
+      * Creating an at-home workspace that works for your child
+
+      * How to make learning fun and stress-free!"
 
   # button
   button:
