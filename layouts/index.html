@@ -105,9 +105,15 @@
 {{ with .Site.Data.homepage.devices }}
 <section class="feature-home section" id="device">
   <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-12">
+          <div class="section-heading text-center">
+              <h2 class="mb-4 text-lg">{{ .title | markdownify }}</h2>          
+          </div>
+        </div>
+      </div>
+
     <div class="row align-items-center">
-      <!--<div class="col-lg-6 col-md-6">-->
-        <h2 class="mb-4 text-lg">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
 
         {{ range .feature }}
