@@ -85,7 +85,8 @@
 <section class="pt-4 section-bottom" id="service">
   <div class="container">
     <div class="row justify-content-center">
-      {{ range .serviceItem }}
+      {{ range $i, .serviceItem :=  (seq 2) }}
+      <!--{{ range .serviceItem }}-->
       <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="service-block mb-4 mb-lg-0">
           <i class="{{ .icon }} text-danger"></i>
