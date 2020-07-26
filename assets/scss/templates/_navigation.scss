@@ -101,7 +101,7 @@
     text-transform: uppercase;
 
     &:hover {
-        color:$light;
+        color:$secondary-color;
         text-decoration: none;
         background-color: $primary-color;
 
@@ -110,7 +110,7 @@
 
 
 .header-white {
-    background: $gray;
+    background: $light;
     -webkit-transition: .0s all ease;
     -o-transition: .0s all ease;
     transition: .0s all ease;
