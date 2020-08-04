@@ -257,8 +257,8 @@ blog:
 ################################# Contact ##############################
 contact:
   enable : true
-  title : "Contact Us"
-  subtitle : "Whether you have questions or you would just like to say hello, contact us. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!"
+  title : "Work with Beck"
+  subtitle : "If you would like to learn more about how we can work together, contact us."
   contactItem:
     # contact Item loop
     - title : "Give me a call"
