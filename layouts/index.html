@@ -87,9 +87,11 @@
       {{ range .serviceItem }}
       <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="service-block mb-4 mb-lg-0">
-          <i class="{{ .icon }} text-danger"></i>
-          <h4 class="mb-3 mt-4">{{ .title | markdownify }}</h4>
-          <p class="mb-0">{{ .content | markdownify }}</p>
+          <a href="{{ .link | safeURL }}" class="smoth-scroll">
+            <i class="{{ .icon }} text-danger"></i>
+            <h4 class="mb-3 mt-4">{{ .title | markdownify }}</h4>
+            <p class="mb-0">{{ .content | markdownify }}</p>
+          </a>
         </div>
       </div>
       {{ end }}
@@ -115,8 +117,50 @@
     <div class="row align-items-center">
         <p>{{ .content | markdownify }}</p>
 
-        {{ range .feature }}
-        <div class="feature-item d-flex mt-5 mb-3">
+        {{ range .feature-1 }}
+        <div class="feature-item d-flex mt-5 mb-3" id="feature-1">
+          {{ if .icon }}
+          <div class="icon-block">
+            <i class="{{ .icon }}"></i>
+          </div>
+          {{ end }}
+          <div class="content">
+            <h5>{{ .title | markdownify }}</h5>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+        {{ end }}
+
+        {{ range .feature-2 }}
+        <div class="feature-item d-flex mt-5 mb-3" id="feature-2">
+          {{ if .icon }}
+          <div class="icon-block">
+            <i class="{{ .icon }}"></i>
+          </div>
+          {{ end }}
+          <div class="content">
+            <h5>{{ .title | markdownify }}</h5>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+        {{ end }}
+
+        {{ range .feature-3 }}
+        <div class="feature-item d-flex mt-5 mb-3" id="feature-3">
+          {{ if .icon }}
+          <div class="icon-block">
+            <i class="{{ .icon }}"></i>
+          </div>
+          {{ end }}
+          <div class="content">
+            <h5>{{ .title | markdownify }}</h5>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+        {{ end }}
+
+        {{ range .feature-4 }}
+        <div class="feature-item d-flex mt-5 mb-3" id="feature-4">
           {{ if .icon }}
           <div class="icon-block">
             <i class="{{ .icon }}"></i>
@@ -378,7 +422,7 @@
           <i class="{{ .icon }}"></i>
           <p class="mb-0">{{ .title | markdownify }}</p>
           {{ range .list }}
-          <a href="{{ .link | safeURL }}" class="hover-item">
+          <a href="{{ .link | safeURL }}" target="_blank" class="hover-item">
             <h5>{{ .listItem }}</h5>
           </a>
           {{ end }}
