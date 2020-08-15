@@ -13,7 +13,7 @@
           <p class="mb-4">{{ .content | markdownify }}</p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .link | safeURL }}" class="btn btn-main-2">{{ .label }} <i class="ti-angle-right ml-3"></i></a>
+          <a href="{{ .link | safeURL }}" class="btn btn-main-2 smoth-scroll">{{ .label }} <i class="ti-angle-right ml-3"></i></a>
           {{ end }}
           {{ end }}
         </div>
@@ -131,7 +131,7 @@
 
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | safeURL }}" class="btn btn-main-2">{{ .label }} <i class="ti-angle-right ml-3"></i></a>
+        <a href="{{ .link | safeURL }}" class="btn btn-main-2 smoth-scroll">{{ .label }} <i class="ti-angle-right ml-3"></i></a>
         {{ end }}
         {{ end }}
       <!--</div>-->
