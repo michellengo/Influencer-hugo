@@ -117,7 +117,7 @@
     <div class="row align-items-center">
         <p>{{ .content | markdownify }}</p>
 
-        {{ .feature1 | markdownify }}
+        {{ range .feature1 }}
         <div class="feature-item d-flex mt-5 mb-3" id="feature1">
           {{ if .icon }}
           <div class="icon-block">
@@ -129,9 +129,10 @@
             <p>{{ .content | markdownify }}</p>
           </div>
         </div>
-  
+        {{ end }}
 
-        {{ .feature2 | markdownify }}
+
+        {{ range .feature2 }}
         <div class="feature-item d-flex mt-5 mb-3" id="feature2">
           {{ if .icon }}
           <div class="icon-block">
@@ -143,9 +144,10 @@
             <p>{{ .content | markdownify }}</p>
           </div>
         </div>
+        {{ end }}
 
 
-        {{ .feature3 | markdownify }}
+        {{ range .feature3 }}
         <div class="feature-item d-flex mt-5 mb-3" id="feature3">
           {{ if .icon }}
           <div class="icon-block">
@@ -157,9 +159,10 @@
             <p>{{ .content | markdownify }}</p>
           </div>
         </div>
+        {{ end }}
 
 
-        {{ .feature4 | markdownify }}
+        {{ range .feature4 }}
         <div class="feature-item d-flex mt-5 mb-3" id="feature4">
           {{ if .icon }}
           <div class="icon-block">
@@ -171,6 +174,7 @@
             <p>{{ .content | markdownify }}</p>
           </div>
         </div>
+        {{ end }}
 
 
         {{ if .button.enable }}
