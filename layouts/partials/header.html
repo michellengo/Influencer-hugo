@@ -37,10 +37,7 @@
 
         {{ if .Site.Params.navButton.enable }}
         {{ "<!-- nav btn -->" | safeHTML }}
-          <button class="snipcart-add-item btn btn-border-tp btn-small ml-3" data-item-id="1"
-          data-item-name="{{ .Site.Data.homepage.banner.title | markdownify }}" data-item-image="{{ .Site.Data.homepage.banner.image | absURL }}" data-item-price="{{ .Site.Data.homepage.banner.price }}" data-item-url="#contact">
-          Work with me
-        </button>
+          <a href="#contact" class="btn btn-main-2">Work with Beck<i class="ti-angle-right ml-3"></i></a>
         {{ end }}
       </div>
     </div>
