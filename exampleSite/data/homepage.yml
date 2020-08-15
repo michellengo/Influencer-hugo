@@ -8,6 +8,12 @@ banner:
   link : "mailto:beckysgoodman@gmail.com"
   price : ""
 
+# button
+button:
+  enable : true
+  label : "Work With Beck"
+  link : "mailto:beckysgoodman@gmail.com"
+
 ######################## Book Preview ##########################
 preview:
   enable : false
