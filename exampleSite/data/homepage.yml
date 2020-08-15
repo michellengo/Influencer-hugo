@@ -53,25 +53,25 @@ service:
     - title : "Private Teacher"
       icon : "ti-book" # themify icon pack : https://themify.me/themify-icons
       content : ""
-      link : ""
+      link : "#feature1"
 
     # service item loop
     - title : "Micro-schooling"
       icon : "ti-desktop" # themify icon pack : https://themify.me/themify-icons
       content : ""
-      link : ""
+      link : "#feature2"
 
     # service item loop
     - title : "1-on-1 tutoring"
       icon : "ti-pencil-alt2" # themify icon pack : https://themify.me/themify-icons
       content : ""
-      link : ""
+      link : "#feature3"
 
     # service item loop
     - title : "At-home teaching workshops"
       icon : "ti-pencil-alt2" # themify icon pack : https://themify.me/themify-icons
       content : ""
-      link : ""
+      link : "#feature4"
 
 
 
@@ -81,48 +81,48 @@ devices:
   title : "Services"
   content : ""
   image : ""
-  feature-1:
-    - title : "Private Teacher (1 child)"
-      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
-      content : "This is the ultimate private school experience where the child receives direct, one-on-one instruction, remediation and enrichment in all academic subject areas. Your child will remain enrolled in the school of your choosing, and learning from the school’s curriculum on virtual learning days. This service includes:
+  feature1:
+    title : "Private Teacher (1 child)"
+    icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
+    content : "This is the ultimate private school experience where the child receives direct, one-on-one instruction, remediation and enrichment in all academic subject areas. Your child will remain enrolled in the school of your choosing, and learning from the school’s curriculum on virtual learning days. This service includes:
 
-      * Direct instruction
+    * Direct instruction
 
-      * Homework help
+    * Homework help
 
-      * Test prep
+    * Test prep
 
-      * Project planning
+    * Project planning
 
-      * Remediation
+    * Remediation
 
-      * IEP/504 compliance support"
-
-    # feature item loop
-  feature-2:
-    - title : "Micro-schooling (multiple children)"
-      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
-      content : "School provides so much more for students than just academic instruction.  There is no reason that your child should lose out on social-emotional development, collaboration with peers or having a class buddy because in-person school is reduced to part-time. This is the best way to replicate a school environment in the safety of a space that you control. In a small group of 3-4 children in the same grade, the teacher will provide direct, in-person instruction on virtual learning days. Virtual learning does not have to mean lonely learning! A small group of classmates allows your child to collaborate with peers, engage in meaningful dialogue and develop social-emotional skills. "
+    * IEP/504 compliance support"
 
     # feature item loop
-  feature-3:
-    - title : "Traditional 1-on-1 tutoring (in-person or virtual)"
-      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
-      content : "This service provides remediation or enrichment for an individual child for a particular subject or skill set. Each session also develops executive functioning skills, confidence and a love of learning! Price packages available for multiple weekly sessions."
+  feature2:
+    title : "Micro-schooling (multiple children)"
+    icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
+    content : "School provides so much more for students than just academic instruction.  There is no reason that your child should lose out on social-emotional development, collaboration with peers or having a class buddy because in-person school is reduced to part-time. This is the best way to replicate a school environment in the safety of a space that you control. In a small group of 3-4 children in the same grade, the teacher will provide direct, in-person instruction on virtual learning days. Virtual learning does not have to mean lonely learning! A small group of classmates allows your child to collaborate with peers, engage in meaningful dialogue and develop social-emotional skills. "
 
     # feature item loop
-  feature-4:
-    - title : "At-home teaching workshops"
-      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
-      content : "In these challenging times, caregivers are tasked with both childcare and education for their little ones. Participation in this workshop will provide caregivers with the foundation they need to make virtual schooling a successful and enjoyable process. In this session we will cover:
+  feature3:
+    title : "Traditional 1-on-1 tutoring (in-person or virtual)"
+    icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
+    content : "This service provides remediation or enrichment for an individual child for a particular subject or skill set. Each session also develops executive functioning skills, confidence and a love of learning! Price packages available for multiple weekly sessions."
 
-      * Interpreting standards and understanding the goal of each assignment
+    # feature item loop
+  feature4:
+    title : "At-home teaching workshops"
+    icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
+    content : "In these challenging times, caregivers are tasked with both childcare and education for their little ones. Participation in this workshop will provide caregivers with the foundation they need to make virtual schooling a successful and enjoyable process. In this session we will cover:
 
-      * Teaching basics (scaffolding, revision, how to assess understanding, etc.)
+    * Interpreting standards and understanding the goal of each assignment
 
-      * Creating an at-home workspace that works for your child
+    * Teaching basics (scaffolding, revision, how to assess understanding, etc.)
 
-      * How to make learning fun and stress-free!"
+    * Creating an at-home workspace that works for your child
+
+    * How to make learning fun and stress-free!"
 
   # button
   button:
