@@ -68,7 +68,7 @@ service:
       link : "#feature3"
   serviceItem4:
     # service item loop
-    - title : "At-home teaching workshops"
+    - title : "Teaching workshops"
       icon : "ti-pencil-alt2" # themify icon pack : https://themify.me/themify-icons
       content : ""
       link : "#feature4"
