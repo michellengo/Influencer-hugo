@@ -24,7 +24,7 @@ googleAnalitycsID = ""
 home = "Home"
 logo = ""
 [params.footer]
-content = "Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+content = "Want to work with us?"
 [params.navButton]
 enable = true
 [[params.plugins.css]]
