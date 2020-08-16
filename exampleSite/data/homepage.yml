@@ -48,25 +48,25 @@ preview:
 ########################## Service ##############################
 service:
   enable : true
-  serviceItem:
+  serviceItem1:
     # service item loop
     - title : "Private Teacher"
       icon : "ti-book" # themify icon pack : https://themify.me/themify-icons
       content : ""
       link : "#feature1"
-
+  serviceItem2:
     # service item loop
     - title : "Micro-schooling"
       icon : "ti-desktop" # themify icon pack : https://themify.me/themify-icons
       content : ""
       link : "#feature2"
-
+  serviceItem3:
     # service item loop
     - title : "1-on-1 tutoring"
       icon : "ti-pencil-alt2" # themify icon pack : https://themify.me/themify-icons
       content : ""
       link : "#feature3"
-
+  serviceItem4:
     # service item loop
     - title : "At-home teaching workshops"
       icon : "ti-pencil-alt2" # themify icon pack : https://themify.me/themify-icons
